@@ -26,7 +26,7 @@ class Footballer():
     
     def skill_vis(self):
         
-        grafik_URL = 'https://image-charts.com/chart'
+        chart_URL = 'https://image-charts.com/chart'
         
         payload = {
             'chco' : '3092de',
@@ -50,7 +50,7 @@ class Footballer():
         
     def skill_compare(self, targetfootballer):
         
-        grafik_URL = 'https://image-charts.com/chart'
+        chart_URL = 'https://image-charts.com/chart'
         
         payload = {
             'chco' : '3092de,027182',
